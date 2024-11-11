@@ -19,18 +19,18 @@ export default function About() {
             <h1 className="about-title">About Me</h1>
             <p className="about-description">
               My name is Muhammad Arsalan. I completed my matriculation in
-              Science and Intermediate in Commerce and Graduation in Bachelor of
-              Commerce (B.COM). Now I'm on the way to learn Artificial
+              Science, Intermediate in Commerce, and Graduation in Bachelor of
+              Commerce (B.COM). Now I&#39;m on the way to learn Artificial
               Intelligence. I have completed a few steps in learning HTML, CSS, and
               JavaScript/TypeScript to become a Full-Stack Developer.
             </p>
             <p className="about-quote">
-              <strong>I Believe:</strong> "Exploring the future one algorithm at
-              a time, because <strong>AI</strong> is the language of tomorrow."
+              <strong>I Believe:</strong> &quot;Exploring the future one algorithm at
+              a time, because <strong>AI</strong> is the language of tomorrow.&quot;
             </p>
             <div className="about-button-container">
               <a href={"/cv/cv1.pdf"}>
-                <button className="about-button">
+                <button className="about-button" aria-label="View my CV">
                   View CV
                 </button>
               </a>

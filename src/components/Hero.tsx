@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
-import "../styles/hero.css";  // Import custom CSS file
+import "../styles/hero.css"; // Import custom CSS file
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="hero-container">
         <div className="hero-text">
           <h1 className="hero-title">
-            I'm a
+            I&#39;m a
             <br className="hidden lg:inline-block" />
             <Typewriter
               options={{
@@ -23,15 +23,13 @@ export default function Hero() {
           </h1>
 
           <p className="hero-description">
-            I believe, "Exploring the future one algorithm at a time, because{" "}
-            <em>AI</em> and <em>WEB DEVELOPMENT</em> is the language of
-            tomorrow".
+            I believe, &quot;Exploring the future one algorithm at a time,
+            because <em>AI</em> and <em>WEB DEVELOPMENT</em> is the language of
+            tomorrow&quot;.
           </p>
           <div className="hero-button-container">
             <Link href={"#contact"}>
-              <button className="hero-button">
-                Contact
-              </button>
+              <button className="hero-button">Contact</button>
             </Link>
           </div>
         </div>
