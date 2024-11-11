@@ -1,0 +1,97 @@
+/* header.css */
+
+/* Header container */
+.header-container {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #1e2227;
+  }
+  
+  /* Header styling */
+  .header {
+    width: 100%;
+    padding: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .header-content {
+      flex-direction: row;
+    }
+  }
+  
+  /* Logo section */
+  .header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .header-title {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #8992a0;
+  }
+  
+  /* Navigation links */
+  .header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    margin-right: 1.25rem;
+    font-size: 1rem;
+    color: #8992a0;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #2c3e50;
+  }
+  
+  /* Download CV button */
+  .header-btn {
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .header-btn {
+      margin-top: 0;
+    }
+  }
+  
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #6b7280;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #bec4cf;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #1f2937;
+  }
+  
+  .download-icon {
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+  }
+  

@@ -1,0 +1,89 @@
+/* about.css */
+
+/* About Section */
+.about-section {
+    
+    background-image: url("/images/bg.jpeg");;
+      padding: 4rem 2rem;
+      color: #8992a0;
+    }
+    
+    /* About Container */
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    @media(min-width: 768px) {
+      .about-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem;
+      }
+    }
+    
+    /* About Image */
+    .about-image {
+      margin-bottom: 2rem;
+    }
+    
+    @media(min-width: 768px) {
+      .about-image {
+        margin-bottom: 0;
+        flex: 1;
+      }
+    }
+    
+    .image-style {
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    
+    /* About Text */
+    .about-text {
+      text-align: center;
+      flex: 1;
+    }
+    
+    @media(min-width: 768px) {
+      .about-text {
+        text-align: left;
+        padding-left: 2rem;
+      }
+    }
+    
+    .about-title {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    .about-description, .about-quote {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+    
+    /* Button Styles */
+    .about-button-container {
+      margin-top: 2rem;
+    }
+    
+    .about-button {
+      background-color: #5f63f2;
+      color: white;
+      padding: 0.75rem 2rem;
+      font-size: 1.125rem;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .about-button:hover {
+      background-color: #4e53d1;
+    }
+    
