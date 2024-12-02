@@ -2,6 +2,7 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import "../styles/skills.css";  // Import custom CSS
 
+
 export default function Skills() {
   return (
     <div id="skills">
